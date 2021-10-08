@@ -1,5 +1,5 @@
 GENERATES = README prog prog-a prog-so liboutput_static.a liboutput.so test
-TRASH = *.o *~ o.*
+TRASH = *.o *~ o.* *.out
 CFLAGS=-fPIC
 
 all:	README prog prog-a prog-so liboutput_static.a liboutput.so test
