@@ -1,8 +1,8 @@
-GENERATES = README prog prog-a liboutput_static.a liboutput.so test0 test1 test3
+GENERATES = README prog prog-a prog-so liboutput_static.a liboutput.so test
 TRASH = *.o *~ o.*
 CFLAGS=-fPIC
 
-all:	README prog prog-a liboutput_static.a liboutput.so test1 test0 test3
+all:	README prog prog-a prog-so liboutput_static.a liboutput.so test
 
 README:	prog
 	./$< 2> $@
